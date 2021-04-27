@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../img/wallpaper.webp');
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.cookieInfo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cookieInfo h2 {
+    font-size: 20px;
+}
+
+.cookieInfo h1 {
+    font-size: 50px;
+}
+
+.cookieBtn {
+    width: 400px;
+    margin: 20px auto;
+    transition: .2s ease-in-out;
+}
+
+.cookieBtn img {
+    width: 100%;
+}
+
+.cookieUpgrades {
+    text-align: center;
+}
+
+.cookieUpgrades button {
+    padding: 15px 10px;
+    background-color: white;
+    border-color: transparent;
+    font-weight: 700;
+    font-size: 20px;
+    transition: .5s ease-in-out;
+}
+
+.cookieUpgrades button:hover {
+    cursor: pointer;
+    background-color: skyblue;
+}
+
+.cookieBtn:active {
+    transform: scale(0.9);
+}
