@@ -57,3 +57,9 @@ html {
 .cookieBtn:active {
     transform: scale(0.9);
 }
+
+.reset {
+    background-color: red !important;
+    color: white !important;
+    margin-top: 10px;
+}

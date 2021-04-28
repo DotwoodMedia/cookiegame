@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body onload="checkCookie()">
+<body onload="checkCookie(); autoCookie()">
 
     <div class="cookieInfo">
         <h2><span id="cookieSecond">1</span> cookies per klik</h2>
@@ -22,9 +22,11 @@
     </div>
 
     <div class="cookieUpgrades">
-        <button>Cookie verdubbelaar</button>
-        <button>Auto clicker (+1)</button>
-        <button>Bakkers boost</button>
+        <button onclick="cookieDubbel()">Cookie verdubbelaar</button>
+        <button onclick="setAutoClicker()">Auto clicker (+1)</button>
+        <button onclick="bakkersBoost()">Bakkers boost</button>
+        <br>
+        <button class="reset" onclick="resetCookies()">Reset!</button>
     </div>
 
     <script src="assets/js/script.js"></script>
