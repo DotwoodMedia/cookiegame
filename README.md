@@ -17,5 +17,5 @@ Pascal van Stiphout
 - Github <a href="https://github.com/DotwoodMedia">@DotwoodMedia</a>
 
 # 📑 Licentie
-© 2021 - Dotwood Media
+© 2021 - Dotwood Media <br>
 Op dit project zit een <a href="https://github.com/DotwoodMedia/cookiegame/blob/main/LICENSE">Apache</a> licentie
